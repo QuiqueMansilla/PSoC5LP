@@ -1,0 +1,12 @@
+--------------- Build Started: 03/20/2013 20:53:22 Project: CharLCDmp_Demo, Configuration: DP8051 Keil 9.03 Debug ---------------
+The code generation step is up to date.
+The compile step is up to date, no work needs to be done.
+LIBX51.exe TRANSFER '.\DP8051\DP8051_Keil_903\Debug\RS.obj', '.\DP8051\DP8051_Keil_903\Debug\E.obj', '.\DP8051\DP8051_Keil_903\Debug\D4.obj', '.\DP8051\DP8051_Keil_903\Debug\D5.obj', '.\DP8051\DP8051_Keil_903\Debug\D6.obj', '.\DP8051\DP8051_Keil_903\Debug\D7.obj', '.\DP8051\DP8051_Keil_903\Debug\LCD_BarGraph.obj', '.\DP8051\DP8051_Keil_903\Debug\LCD.obj', '.\DP8051\DP8051_Keil_903\Debug\LCD_PM.obj', '.\DP8051\DP8051_Keil_903\Debug\LCD_Cntl_Port.obj', '.\DP8051\DP8051_Keil_903\Debug\CyBootAsmKeil.obj', '.\DP8051\DP8051_Keil_903\Debug\CyDmac.obj', '.\DP8051\DP8051_Keil_903\Debug\CyFlash.obj', '.\DP8051\DP8051_Keil_903\Debug\CyLib.obj', '.\DP8051\DP8051_Keil_903\Debug\cymem.obj', '.\DP8051\DP8051_Keil_903\Debug\cyPm.obj', '.\DP8051\DP8051_Keil_903\Debug\CySpc.obj', '.\DP8051\DP8051_Keil_903\Debug\cyutils.obj', '.\DP8051\DP8051_Keil_903\Debug\KeilStart.obj', '.\DP8051\DP8051_Keil_903\Debug\cyfitter_cfg.obj' TO '.\DP8051\DP8051_Keil_903\Debug\CharLCDmp_Demo.lib'
+LX51.exe '.\DP8051\DP8051_Keil_903\Debug\main.obj', '.\DP8051\DP8051_Keil_903\Debug\CharLCDmp_Demo.lib', 'C:\Program Files (x86)\Cypress\PSoC Creator\2.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DP8051\DP8051_Keil_903\Debug\CyComponentLibrary.lib'  TO '.\DP8051\DP8051_Keil_903\Debug\CharLCDmp_Demo.omf' PR(.\DP8051\DP8051_Keil_903\Debug\CharLCDmp_Demo.map) IX CODE DW(16) RU CL(XDATA(X:0x0000-X:0x1FFF)) CL(CODE(C:0x0000-C:0xFFFF)) CL(CONST(C:0x0000-C:0xFFFF))
+Program Size: data=14.0 xdata=101 const=125 code=3339
+OHx51.exe CharLCDmp_Demo.omf HEXFILE(CharLCDmp_Demo.ihx)
+c8051-elf-omf2elf.exe CharLCDmp_Demo.omf CharLCDmp_Demo.elf
+cyhextool -o .\DP8051\DP8051_Keil_903\Debug\CharLCDmp_Demo.hex -f .\DP8051\DP8051_Keil_903\Debug\CharLCDmp_Demo.ihx -prot .\Generated_Source\PSoC3\protect.hex -id 1E028069 -a EEPROM=90200000:800,PROGRAM=00000000:10000,CONFIG=80000000:2000,PROTECT=90400000:40 -meta 0301 -cunv 00000004 -wonv BC90ACAF -ecc .\Generated_Source\PSoC3\config.hex
+Flash used: 3464 of 65536 bytes (5.3 %).
+SRAM used: 101 of 8192 bytes (1.2 %).
+--------------- Build Succeeded: 03/20/2013 20:53:24 ---------------

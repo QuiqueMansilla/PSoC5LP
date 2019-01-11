@@ -1,0 +1,7 @@
+C:\PSoC5LP\Proyectos_Alarma_T2\Teclado_Matricial_1.cydsn\Teclado_Matricial_1.cyprj|4bc598a9-16cc-4607-9305-5e0bd939c774
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|dd5d542c-34bf-4f4b-a24a-e5f417845ac4
+C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|1ee5ab65-64b8-4798-8c7a-3de001ddcb6e
+C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|e4810e6f-c959-4f2b-ba89-bce8bff3aec8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e5c4b562-5116-4e13-bba3-3f5936cdff1b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|0b921bca-c3bc-493f-a939-0f7fe2c5bab4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|c37fe30f-0085-4cc4-8568-138908b8e5ac
