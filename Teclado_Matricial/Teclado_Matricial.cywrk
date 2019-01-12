@@ -2,15 +2,14 @@
 <CyXmlSerializer>
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
-<CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="Proyectos_Alarma_T2" persistent="Proyectos_Alarma_T2.cywrk" platform="NOT_USED">
-<current_project name=".\Teclado_Matricial_1.cydsn\Teclado_Matricial_1.cyprj" />
+<CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="Teclado_Matricial" persistent="Teclado_Matricial.cywrk" platform="NOT_USED">
+<current_project name=".\Teclado_Matricial.cydsn\Teclado_Matricial.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
-<v>.\Teclado_Matricial_1.cydsn\Teclado_Matricial_1.cyprj</v>
-<v>.\Libreria_Teclado_Matricial.cylib\Libreria_Teclado_Matricial.cyprj</v>
+<v>.\Teclado_Matricial.cydsn\Teclado_Matricial.cyprj</v>
 </projects>
-<workspace_id v="a8795ce0-b031-45c1-94b6-ac0d1eed745e" />
+<workspace_id v="642bd29c-e343-4a9f-b601-0045c5487100" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />
 <WriteAppMarketingVersionLastSavedWith v="4.2" />
 <CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyPrjDependencyList" version="4">

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\TopDesign</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Pins</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Analog</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Clocks</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Interrupts</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\DMA</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\System</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Directives</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Flash Security</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\EEPROM</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Header Files</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Header Files\device.h</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Source Files</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Source Files\main.c</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Generated_Source</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\TopDesign</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Pins</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Analog</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Clocks</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Interrupts</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\DMA</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\System</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Directives</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\Flash Security</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.cydwr\EEPROM</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Header Files</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Header Files\device.h</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Source Files</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Source Files\main.c</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Generated_Source</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\TopDesign</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\TopDesign</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.gpdsc</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.rpt</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.gpdsc</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo.rpt</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CharLCDmp_Demo_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\PSoC 3 Architecture TRM</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CY8C38 Family Datasheet</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\System Reference Guides</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Gnd_v1_0</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Potentiometer_v1_0.pdf</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Power_v1_0</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Power_v1_0\Power_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CharLCDmp_Demo3</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\PSoC 3 Architecture TRM</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\CY8C38 Family Datasheet</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\System Reference Guides</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Gnd_v1_0</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Potentiometer_v1_0.pdf</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Power_v1_0</v>
+<v>CharLCDmp_Demo3\CharLCDmp_Demo\Power_v1_0\Power_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CharLCDmp_Demo.cydsn\CharLCDmp_Demo.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1106, 462" SelectedTabbedMdiWindow="fad85d69-f84d-4324-b7a9-a5799ae2176f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="73f6a0da-c907-455f-b5b4-ad6db1daf699" /><DocumentWindow Key="C:\PSoC5LP\PSoC5LP\LibreriasExternas\CharLCDmp_Demo3\CharLCDmp_Demo.cydsn\CharLCDmp_Demo.cydwr" Guid="fad85d69-f84d-4324-b7a9-a5799ae2176f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
