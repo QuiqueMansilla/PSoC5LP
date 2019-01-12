@@ -1,0 +1,2 @@
+# ReadmeReSatart
+Proyecto ReStart es un ensayo evolutivo de una aplicacion que irá evolucionando gradualmente y se hará un seguimiento de los cambios en el original (punto de partida) para llevar un control preciso de que es lo que se va agregando o modificando, tratando de establecer una manera mas profesional y efectiva de trabajar en el desarrollo de aplicaciones con PSoC Creator, en este caso.
