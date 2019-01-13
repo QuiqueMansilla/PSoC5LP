@@ -25,6 +25,8 @@ int main(void)
     LCD_Char_PrintString("La rubita Pamela");
     LCD_Char_Position(1,0);
     LCD_Char_PrintString(" que personaje  ");
+    CyDelay(1000);
+    LCD_Char_ClearDisplay();
     }
 }
 

@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.467ms
+Loading plugins phase: Elapsed time ==> 0s.189ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -d CY8C5888LTI-LP097 -s C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -d CY8C5888LTI-LP097 -s C:\PSoC5LP\PSoC5LP\ReStart.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.252ms
+Elaboration phase: Elapsed time ==> 1s.209ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.211ms
+HDL generation phase: Elapsed time ==> 0s.044ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -25,23 +25,23 @@ HDL generation phase: Elapsed time ==> 0s.211ms
 ======================================================================
 Compiling:  ReStart.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -dcpsoc3 ReStart.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -dcpsoc3 ReStart.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  ReStart.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -dcpsoc3 ReStart.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -dcpsoc3 ReStart.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  ReStart.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -dcpsoc3 -verilog ReStart.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -dcpsoc3 -verilog ReStart.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Sat Jan 12 19:27:08 2019
+Sat Jan 12 21:30:46 2019
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 ReStart.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Sat Jan 12 19:27:08 2019
+Sat Jan 12 21:30:46 2019
 
 
 vpp:  No errors.
@@ -76,11 +76,11 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  ReStart.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -dcpsoc3 -verilog ReStart.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -dcpsoc3 -verilog ReStart.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Sat Jan 12 19:27:08 2019
+Sat Jan 12 21:30:47 2019
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -91,8 +91,8 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\codegentemp\ReStart.ctl'.
-Linking 'C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\codegentemp\ReStart.v'.
+Linking 'C:\PSoC5LP\PSoC5LP\ReStart.cydsn\codegentemp\ReStart.ctl'.
+Linking 'C:\PSoC5LP\PSoC5LP\ReStart.cydsn\codegentemp\ReStart.v'.
 
 tovif:  No errors.
 
@@ -100,11 +100,11 @@ tovif:  No errors.
 ======================================================================
 Compiling:  ReStart.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -dcpsoc3 -verilog ReStart.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -dcpsoc3 -verilog ReStart.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Sat Jan 12 19:27:09 2019
+Sat Jan 12 21:30:47 2019
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -115,8 +115,8 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\codegentemp\ReStart.ctl'.
-Linking 'C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\codegentemp\ReStart.v'.
+Linking 'C:\PSoC5LP\PSoC5LP\ReStart.cydsn\codegentemp\ReStart.ctl'.
+Linking 'C:\PSoC5LP\PSoC5LP\ReStart.cydsn\codegentemp\ReStart.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
@@ -166,16 +166,16 @@ topld:  No errors.
 
 CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj" -dcpsoc3 ReStart.v -verilog
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -dcpsoc3 ReStart.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 1s.705ms
+Warp synthesis phase: Elapsed time ==> 1s.005ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Saturday, 12 January 2019 19:27:09
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\quiqu\OneDrive\Documentos\PSoC Creator\ReStart\ReStart.cydsn\ReStart.cyprj -d CY8C5888LTI-LP097 ReStart.v -verilog
+cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Saturday, 12 January 2019 21:30:47
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\PSoC5LP\PSoC5LP\ReStart.cydsn\ReStart.cyprj -d CY8C5888LTI-LP097 ReStart.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.080ms
+Design parsing phase: Elapsed time ==> 0s.010ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -527,8 +527,8 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.168ms
-Tech Mapping phase: Elapsed time ==> 0s.354ms
+Technology Mapping: Elapsed time ==> 0s.037ms
+Tech Mapping phase: Elapsed time ==> 0s.182ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -539,10 +539,10 @@ IO_4@[IOP=(2)][IoId=(4)] : \LCD_Char:LCDPort(3)\ (fixed)
 IO_5@[IOP=(2)][IoId=(5)] : \LCD_Char:LCDPort(4)\ (fixed)
 IO_6@[IOP=(2)][IoId=(6)] : \LCD_Char:LCDPort(5)\ (fixed)
 IO_7@[IOP=(2)][IoId=(7)] : \LCD_Char:LCDPort(6)\ (fixed)
-Analog Placement phase: Elapsed time ==> 0s.260ms
+Analog Placement phase: Elapsed time ==> 0s.100ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.000ms
+Analog Routing phase: Elapsed time ==> 0s.007ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -557,26 +557,26 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.432ms
+Analog Code Generation phase: Elapsed time ==> 0s.410ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
 I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
-I2076: Total run-time: 0.6 sec.
+I2076: Total run-time: 0.7 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
 <CYPRESSTAG name="PLD Packing Summary">
 No PLDs were packed.
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.011ms
+PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.148ms
+Partitioning: Elapsed time ==> 0s.011ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -969,33 +969,33 @@ Port | Pin | Fixed |      Type |       Drive Mode |                  Name | Conn
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.021ms
-Digital Placement phase: Elapsed time ==> 2s.340ms
+Digital component placer commit/Report: Elapsed time ==> 0s.023ms
+Digital Placement phase: Elapsed time ==> 1s.529ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "ReStart_r.vh2" --pcf-path "ReStart.pco" --des-name "ReStart" --dsf-path "ReStart.dsf" --sdc-path "ReStart.sdc" --lib-path "ReStart_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.791ms
+Digital Routing phase: Elapsed time ==> 1s.982ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 1s.132ms
+Bitstream Generation phase: Elapsed time ==> 0s.326ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.077ms
+Bitstream Verification phase: Elapsed time ==> 0s.088ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in ReStart_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.978ms
+Static timing analysis phase: Elapsed time ==> 0s.558ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.427ms
+Design database save phase: Elapsed time ==> 0s.284ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 7s.927ms
+cydsfit: Elapsed time ==> 5s.512ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 7s.996ms
-API generation phase: Elapsed time ==> 4s.753ms
-Dependency generation phase: Elapsed time ==> 0s.067ms
+Fitter phase: Elapsed time ==> 5s.513ms
+API generation phase: Elapsed time ==> 1s.988ms
+Dependency generation phase: Elapsed time ==> 0s.016ms
 Cleanup phase: Elapsed time ==> 0s.000ms
