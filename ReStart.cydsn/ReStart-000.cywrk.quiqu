@@ -120,6 +120,29 @@
 <VisibleNodeIds>
 <v>ReStart-000</v>
 <v>ReStart-000\ReStart</v>
+<v>ReStart-000\ReStart\CortexM3</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\ReStart.elf</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\ReStart.hex</v>
+<v>ReStart-000\ReStart\CortexM3\ARM_GCC_541\Debug\ReStart.map</v>
+<v>ReStart-000\ReStart\ReStart.gpdsc</v>
 <v>ReStart-000\ReStart\ReStart.rpt</v>
 <v>ReStart-000\ReStart\ReStart_timing.html</v>
 </VisibleNodeIds>
