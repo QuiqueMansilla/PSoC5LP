@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 1
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 1
   14:main.c        **** 
   15:main.c        ****     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
   16:main.c        ****     LCD_Char_Start();
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 2
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 2
 
 
   42              		.loc 1 16 0
@@ -86,7 +86,7 @@ ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 1
   56              	.LVL2:
   25:main.c        ****     LCD_Char_PrintString("La rubita Pamela");
   57              		.loc 1 25 0 discriminator 1
-  58 0016 0948     		ldr	r0, .L4
+  58 0016 0B48     		ldr	r0, .L4
   59 0018 FFF7FEFF 		bl	LCD_Char_PrintString
   60              	.LVL3:
   26:main.c        ****     LCD_Char_Position(1,0);
@@ -97,12 +97,12 @@ ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 1
   65              	.LVL4:
   27:main.c        ****     LCD_Char_PrintString(" que personaje  ");
   66              		.loc 1 27 0 discriminator 1
-  67 0024 0648     		ldr	r0, .L4+4
+  67 0024 0848     		ldr	r0, .L4+4
   68 0026 FFF7FEFF 		bl	LCD_Char_PrintString
   69              	.LVL5:
-  28:main.c        ****     CyDelay(1000);
+  28:main.c        ****     CyDelay(500);
   70              		.loc 1 28 0 discriminator 1
-  71 002a 4FF47A70 		mov	r0, #1000
+  71 002a 4FF4FA70 		mov	r0, #500
   72 002e FFF7FEFF 		bl	CyDelay
   73              	.LVL6:
   29:main.c        ****     LCD_Char_ClearDisplay();
@@ -110,596 +110,615 @@ ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 1
   75 0032 0120     		movs	r0, #1
   76 0034 FFF7FEFF 		bl	LCD_Char_WriteControl
   77              	.LVL7:
-  78 0038 E9E7     		b	.L2
-  79              	.L5:
-  80 003a 00BF     		.align	2
-  81              	.L4:
-  82 003c 00000000 		.word	.LC0
-  83 0040 14000000 		.word	.LC1
-  84              		.cfi_endproc
-  85              	.LFE63:
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 3
+  30:main.c        ****     CyDelay(500);
+  78              		.loc 1 30 0 discriminator 1
+  79 0038 4FF4FA70 		mov	r0, #500
+  80 003c FFF7FEFF 		bl	CyDelay
+  81              	.LVL8:
+  82 0040 E5E7     		b	.L2
+  83              	.L5:
+  84 0042 00BF     		.align	2
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 3
 
 
-  86              		.size	main, .-main
-  87              		.section	.rodata.str1.4,"aMS",%progbits,1
-  88              		.align	2
-  89              	.LC0:
-  90 0000 4C612072 		.ascii	"La rubita Pamela\000"
-  90      75626974 
-  90      61205061 
-  90      6D656C61 
-  90      00
-  91 0011 000000   		.space	3
-  92              	.LC1:
-  93 0014 20717565 		.ascii	" que personaje  \000"
-  93      20706572 
-  93      736F6E61 
-  93      6A652020 
-  93      00
-  94              		.text
-  95              	.Letext0:
-  96              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
-  97              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
-  98              		.file 4 "Generated_Source\\PSoC5/LCD_Char.h"
-  99              		.file 5 "Generated_Source\\PSoC5/CyLib.h"
- 100              		.file 6 "Generated_Source\\PSoC5/core_cm3.h"
- 101              		.section	.debug_info,"",%progbits
- 102              	.Ldebug_info0:
- 103 0000 A1010000 		.4byte	0x1a1
- 104 0004 0400     		.2byte	0x4
- 105 0006 00000000 		.4byte	.Ldebug_abbrev0
- 106 000a 04       		.byte	0x4
- 107 000b 01       		.uleb128 0x1
- 108 000c 35000000 		.4byte	.LASF21
- 109 0010 0C       		.byte	0xc
- 110 0011 2E000000 		.4byte	.LASF22
- 111 0015 DD000000 		.4byte	.LASF23
- 112 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 113 001d 00000000 		.4byte	0
- 114 0021 00000000 		.4byte	.Ldebug_line0
- 115 0025 02       		.uleb128 0x2
- 116 0026 01       		.byte	0x1
- 117 0027 06       		.byte	0x6
- 118 0028 96010000 		.4byte	.LASF0
- 119 002c 02       		.uleb128 0x2
- 120 002d 01       		.byte	0x1
- 121 002e 08       		.byte	0x8
- 122 002f 45010000 		.4byte	.LASF1
- 123 0033 02       		.uleb128 0x2
- 124 0034 02       		.byte	0x2
- 125 0035 05       		.byte	0x5
- 126 0036 BE010000 		.4byte	.LASF2
- 127 003a 02       		.uleb128 0x2
- 128 003b 02       		.byte	0x2
- 129 003c 07       		.byte	0x7
- 130 003d 0E000000 		.4byte	.LASF3
- 131 0041 03       		.uleb128 0x3
- 132 0042 AE010000 		.4byte	.LASF9
- 133 0046 02       		.byte	0x2
- 134 0047 3F       		.byte	0x3f
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 4
+  85              	.L4:
+  86 0044 00000000 		.word	.LC0
+  87 0048 14000000 		.word	.LC1
+  88              		.cfi_endproc
+  89              	.LFE63:
+  90              		.size	main, .-main
+  91              		.section	.rodata.str1.4,"aMS",%progbits,1
+  92              		.align	2
+  93              	.LC0:
+  94 0000 4C612072 		.ascii	"La rubita Pamela\000"
+  94      75626974 
+  94      61205061 
+  94      6D656C61 
+  94      00
+  95 0011 000000   		.space	3
+  96              	.LC1:
+  97 0014 20717565 		.ascii	" que personaje  \000"
+  97      20706572 
+  97      736F6E61 
+  97      6A652020 
+  97      00
+  98              		.text
+  99              	.Letext0:
+ 100              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 101              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 102              		.file 4 "Generated_Source\\PSoC5/LCD_Char.h"
+ 103              		.file 5 "Generated_Source\\PSoC5/CyLib.h"
+ 104              		.file 6 "Generated_Source\\PSoC5/core_cm3.h"
+ 105              		.section	.debug_info,"",%progbits
+ 106              	.Ldebug_info0:
+ 107 0000 B6010000 		.4byte	0x1b6
+ 108 0004 0400     		.2byte	0x4
+ 109 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 110 000a 04       		.byte	0x4
+ 111 000b 01       		.uleb128 0x1
+ 112 000c 35000000 		.4byte	.LASF21
+ 113 0010 0C       		.byte	0xc
+ 114 0011 2E000000 		.4byte	.LASF22
+ 115 0015 DD000000 		.4byte	.LASF23
+ 116 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 117 001d 00000000 		.4byte	0
+ 118 0021 00000000 		.4byte	.Ldebug_line0
+ 119 0025 02       		.uleb128 0x2
+ 120 0026 01       		.byte	0x1
+ 121 0027 06       		.byte	0x6
+ 122 0028 96010000 		.4byte	.LASF0
+ 123 002c 02       		.uleb128 0x2
+ 124 002d 01       		.byte	0x1
+ 125 002e 08       		.byte	0x8
+ 126 002f 45010000 		.4byte	.LASF1
+ 127 0033 02       		.uleb128 0x2
+ 128 0034 02       		.byte	0x2
+ 129 0035 05       		.byte	0x5
+ 130 0036 BE010000 		.4byte	.LASF2
+ 131 003a 02       		.uleb128 0x2
+ 132 003b 02       		.byte	0x2
+ 133 003c 07       		.byte	0x7
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 4
 
 
- 135 0048 4C000000 		.4byte	0x4c
- 136 004c 02       		.uleb128 0x2
- 137 004d 04       		.byte	0x4
- 138 004e 05       		.byte	0x5
- 139 004f 58010000 		.4byte	.LASF4
- 140 0053 02       		.uleb128 0x2
- 141 0054 04       		.byte	0x4
- 142 0055 07       		.byte	0x7
- 143 0056 06010000 		.4byte	.LASF5
- 144 005a 02       		.uleb128 0x2
- 145 005b 08       		.byte	0x8
- 146 005c 05       		.byte	0x5
- 147 005d 00000000 		.4byte	.LASF6
- 148 0061 02       		.uleb128 0x2
- 149 0062 08       		.byte	0x8
- 150 0063 07       		.byte	0x7
- 151 0064 18010000 		.4byte	.LASF7
- 152 0068 04       		.uleb128 0x4
- 153 0069 04       		.byte	0x4
- 154 006a 05       		.byte	0x5
- 155 006b 696E7400 		.ascii	"int\000"
- 156 006f 02       		.uleb128 0x2
- 157 0070 04       		.byte	0x4
- 158 0071 07       		.byte	0x7
- 159 0072 21000000 		.4byte	.LASF8
- 160 0076 03       		.uleb128 0x3
- 161 0077 C8010000 		.4byte	.LASF10
- 162 007b 03       		.byte	0x3
- 163 007c 2C       		.byte	0x2c
- 164 007d 41000000 		.4byte	0x41
- 165 0081 02       		.uleb128 0x2
- 166 0082 04       		.byte	0x4
- 167 0083 04       		.byte	0x4
- 168 0084 B8010000 		.4byte	.LASF11
- 169 0088 02       		.uleb128 0x2
- 170 0089 08       		.byte	0x8
- 171 008a 04       		.byte	0x4
- 172 008b 73010000 		.4byte	.LASF12
- 173 008f 02       		.uleb128 0x2
- 174 0090 01       		.byte	0x1
- 175 0091 08       		.byte	0x8
- 176 0092 53010000 		.4byte	.LASF13
- 177 0096 02       		.uleb128 0x2
- 178 0097 04       		.byte	0x4
- 179 0098 07       		.byte	0x7
- 180 0099 D0010000 		.4byte	.LASF14
- 181 009d 02       		.uleb128 0x2
- 182 009e 08       		.byte	0x8
- 183 009f 04       		.byte	0x4
- 184 00a0 A2010000 		.4byte	.LASF15
- 185 00a4 05       		.uleb128 0x5
- 186 00a5 C3000000 		.4byte	.LASF24
- 187 00a9 01       		.byte	0x1
- 188 00aa 0B       		.byte	0xb
- 189 00ab 68000000 		.4byte	0x68
- 190 00af 00000000 		.4byte	.LFB63
- 191 00b3 44000000 		.4byte	.LFE63-.LFB63
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 5
+ 134 003d 0E000000 		.4byte	.LASF3
+ 135 0041 03       		.uleb128 0x3
+ 136 0042 AE010000 		.4byte	.LASF9
+ 137 0046 02       		.byte	0x2
+ 138 0047 3F       		.byte	0x3f
+ 139 0048 4C000000 		.4byte	0x4c
+ 140 004c 02       		.uleb128 0x2
+ 141 004d 04       		.byte	0x4
+ 142 004e 05       		.byte	0x5
+ 143 004f 58010000 		.4byte	.LASF4
+ 144 0053 02       		.uleb128 0x2
+ 145 0054 04       		.byte	0x4
+ 146 0055 07       		.byte	0x7
+ 147 0056 06010000 		.4byte	.LASF5
+ 148 005a 02       		.uleb128 0x2
+ 149 005b 08       		.byte	0x8
+ 150 005c 05       		.byte	0x5
+ 151 005d 00000000 		.4byte	.LASF6
+ 152 0061 02       		.uleb128 0x2
+ 153 0062 08       		.byte	0x8
+ 154 0063 07       		.byte	0x7
+ 155 0064 18010000 		.4byte	.LASF7
+ 156 0068 04       		.uleb128 0x4
+ 157 0069 04       		.byte	0x4
+ 158 006a 05       		.byte	0x5
+ 159 006b 696E7400 		.ascii	"int\000"
+ 160 006f 02       		.uleb128 0x2
+ 161 0070 04       		.byte	0x4
+ 162 0071 07       		.byte	0x7
+ 163 0072 21000000 		.4byte	.LASF8
+ 164 0076 03       		.uleb128 0x3
+ 165 0077 C8010000 		.4byte	.LASF10
+ 166 007b 03       		.byte	0x3
+ 167 007c 2C       		.byte	0x2c
+ 168 007d 41000000 		.4byte	0x41
+ 169 0081 02       		.uleb128 0x2
+ 170 0082 04       		.byte	0x4
+ 171 0083 04       		.byte	0x4
+ 172 0084 B8010000 		.4byte	.LASF11
+ 173 0088 02       		.uleb128 0x2
+ 174 0089 08       		.byte	0x8
+ 175 008a 04       		.byte	0x4
+ 176 008b 73010000 		.4byte	.LASF12
+ 177 008f 02       		.uleb128 0x2
+ 178 0090 01       		.byte	0x1
+ 179 0091 08       		.byte	0x8
+ 180 0092 53010000 		.4byte	.LASF13
+ 181 0096 02       		.uleb128 0x2
+ 182 0097 04       		.byte	0x4
+ 183 0098 07       		.byte	0x7
+ 184 0099 D0010000 		.4byte	.LASF14
+ 185 009d 02       		.uleb128 0x2
+ 186 009e 08       		.byte	0x8
+ 187 009f 04       		.byte	0x4
+ 188 00a0 A2010000 		.4byte	.LASF15
+ 189 00a4 05       		.uleb128 0x5
+ 190 00a5 C3000000 		.4byte	.LASF24
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 5
 
 
- 192 00b7 01       		.uleb128 0x1
- 193 00b8 9C       		.byte	0x9c
- 194 00b9 5C010000 		.4byte	0x15c
- 195 00bd 06       		.uleb128 0x6
- 196 00be 08000000 		.4byte	.LVL0
- 197 00c2 6D010000 		.4byte	0x16d
- 198 00c6 07       		.uleb128 0x7
- 199 00c7 0E000000 		.4byte	.LVL1
- 200 00cb 78010000 		.4byte	0x178
- 201 00cf D9000000 		.4byte	0xd9
- 202 00d3 08       		.uleb128 0x8
- 203 00d4 01       		.uleb128 0x1
- 204 00d5 50       		.byte	0x50
- 205 00d6 01       		.uleb128 0x1
- 206 00d7 31       		.byte	0x31
- 207 00d8 00       		.byte	0
- 208 00d9 07       		.uleb128 0x7
- 209 00da 16000000 		.4byte	.LVL2
- 210 00de 83010000 		.4byte	0x183
- 211 00e2 F1000000 		.4byte	0xf1
- 212 00e6 08       		.uleb128 0x8
- 213 00e7 01       		.uleb128 0x1
- 214 00e8 50       		.byte	0x50
- 215 00e9 01       		.uleb128 0x1
- 216 00ea 30       		.byte	0x30
- 217 00eb 08       		.uleb128 0x8
- 218 00ec 01       		.uleb128 0x1
- 219 00ed 51       		.byte	0x51
- 220 00ee 01       		.uleb128 0x1
- 221 00ef 30       		.byte	0x30
- 222 00f0 00       		.byte	0
- 223 00f1 07       		.uleb128 0x7
- 224 00f2 1C000000 		.4byte	.LVL3
- 225 00f6 8E010000 		.4byte	0x18e
- 226 00fa 08010000 		.4byte	0x108
- 227 00fe 08       		.uleb128 0x8
- 228 00ff 01       		.uleb128 0x1
- 229 0100 50       		.byte	0x50
- 230 0101 05       		.uleb128 0x5
- 231 0102 03       		.byte	0x3
- 232 0103 00000000 		.4byte	.LC0
- 233 0107 00       		.byte	0
- 234 0108 07       		.uleb128 0x7
- 235 0109 24000000 		.4byte	.LVL4
- 236 010d 83010000 		.4byte	0x183
- 237 0111 20010000 		.4byte	0x120
- 238 0115 08       		.uleb128 0x8
- 239 0116 01       		.uleb128 0x1
- 240 0117 50       		.byte	0x50
- 241 0118 01       		.uleb128 0x1
- 242 0119 31       		.byte	0x31
- 243 011a 08       		.uleb128 0x8
- 244 011b 01       		.uleb128 0x1
- 245 011c 51       		.byte	0x51
- 246 011d 01       		.uleb128 0x1
- 247 011e 30       		.byte	0x30
- 248 011f 00       		.byte	0
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 6
+ 191 00a9 01       		.byte	0x1
+ 192 00aa 0B       		.byte	0xb
+ 193 00ab 68000000 		.4byte	0x68
+ 194 00af 00000000 		.4byte	.LFB63
+ 195 00b3 4C000000 		.4byte	.LFE63-.LFB63
+ 196 00b7 01       		.uleb128 0x1
+ 197 00b8 9C       		.byte	0x9c
+ 198 00b9 71010000 		.4byte	0x171
+ 199 00bd 06       		.uleb128 0x6
+ 200 00be 08000000 		.4byte	.LVL0
+ 201 00c2 82010000 		.4byte	0x182
+ 202 00c6 07       		.uleb128 0x7
+ 203 00c7 0E000000 		.4byte	.LVL1
+ 204 00cb 8D010000 		.4byte	0x18d
+ 205 00cf D9000000 		.4byte	0xd9
+ 206 00d3 08       		.uleb128 0x8
+ 207 00d4 01       		.uleb128 0x1
+ 208 00d5 50       		.byte	0x50
+ 209 00d6 01       		.uleb128 0x1
+ 210 00d7 31       		.byte	0x31
+ 211 00d8 00       		.byte	0
+ 212 00d9 07       		.uleb128 0x7
+ 213 00da 16000000 		.4byte	.LVL2
+ 214 00de 98010000 		.4byte	0x198
+ 215 00e2 F1000000 		.4byte	0xf1
+ 216 00e6 08       		.uleb128 0x8
+ 217 00e7 01       		.uleb128 0x1
+ 218 00e8 50       		.byte	0x50
+ 219 00e9 01       		.uleb128 0x1
+ 220 00ea 30       		.byte	0x30
+ 221 00eb 08       		.uleb128 0x8
+ 222 00ec 01       		.uleb128 0x1
+ 223 00ed 51       		.byte	0x51
+ 224 00ee 01       		.uleb128 0x1
+ 225 00ef 30       		.byte	0x30
+ 226 00f0 00       		.byte	0
+ 227 00f1 07       		.uleb128 0x7
+ 228 00f2 1C000000 		.4byte	.LVL3
+ 229 00f6 A3010000 		.4byte	0x1a3
+ 230 00fa 08010000 		.4byte	0x108
+ 231 00fe 08       		.uleb128 0x8
+ 232 00ff 01       		.uleb128 0x1
+ 233 0100 50       		.byte	0x50
+ 234 0101 05       		.uleb128 0x5
+ 235 0102 03       		.byte	0x3
+ 236 0103 00000000 		.4byte	.LC0
+ 237 0107 00       		.byte	0
+ 238 0108 07       		.uleb128 0x7
+ 239 0109 24000000 		.4byte	.LVL4
+ 240 010d 98010000 		.4byte	0x198
+ 241 0111 20010000 		.4byte	0x120
+ 242 0115 08       		.uleb128 0x8
+ 243 0116 01       		.uleb128 0x1
+ 244 0117 50       		.byte	0x50
+ 245 0118 01       		.uleb128 0x1
+ 246 0119 31       		.byte	0x31
+ 247 011a 08       		.uleb128 0x8
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 6
 
 
- 249 0120 07       		.uleb128 0x7
- 250 0121 2A000000 		.4byte	.LVL5
- 251 0125 8E010000 		.4byte	0x18e
- 252 0129 37010000 		.4byte	0x137
- 253 012d 08       		.uleb128 0x8
- 254 012e 01       		.uleb128 0x1
- 255 012f 50       		.byte	0x50
- 256 0130 05       		.uleb128 0x5
- 257 0131 03       		.byte	0x3
- 258 0132 14000000 		.4byte	.LC1
- 259 0136 00       		.byte	0
- 260 0137 07       		.uleb128 0x7
- 261 0138 32000000 		.4byte	.LVL6
- 262 013c 99010000 		.4byte	0x199
- 263 0140 4C010000 		.4byte	0x14c
- 264 0144 08       		.uleb128 0x8
- 265 0145 01       		.uleb128 0x1
- 266 0146 50       		.byte	0x50
- 267 0147 03       		.uleb128 0x3
- 268 0148 0A       		.byte	0xa
- 269 0149 E803     		.2byte	0x3e8
- 270 014b 00       		.byte	0
- 271 014c 09       		.uleb128 0x9
- 272 014d 38000000 		.4byte	.LVL7
- 273 0151 78010000 		.4byte	0x178
- 274 0155 08       		.uleb128 0x8
- 275 0156 01       		.uleb128 0x1
- 276 0157 50       		.byte	0x50
- 277 0158 01       		.uleb128 0x1
- 278 0159 31       		.byte	0x31
- 279 015a 00       		.byte	0
- 280 015b 00       		.byte	0
- 281 015c 0A       		.uleb128 0xa
- 282 015d 89010000 		.4byte	.LASF25
- 283 0161 06       		.byte	0x6
- 284 0162 1207     		.2byte	0x712
- 285 0164 68010000 		.4byte	0x168
- 286 0168 0B       		.uleb128 0xb
- 287 0169 76000000 		.4byte	0x76
- 288 016d 0C       		.uleb128 0xc
- 289 016e 7A010000 		.4byte	.LASF16
- 290 0172 7A010000 		.4byte	.LASF16
- 291 0176 04       		.byte	0x4
- 292 0177 38       		.byte	0x38
- 293 0178 0C       		.uleb128 0xc
- 294 0179 2F010000 		.4byte	.LASF17
- 295 017d 2F010000 		.4byte	.LASF17
- 296 0181 04       		.byte	0x4
- 297 0182 3A       		.byte	0x3a
- 298 0183 0C       		.uleb128 0xc
- 299 0184 61010000 		.4byte	.LASF18
- 300 0188 61010000 		.4byte	.LASF18
- 301 018c 04       		.byte	0x4
- 302 018d 3D       		.byte	0x3d
- 303 018e 0C       		.uleb128 0xc
- 304 018f C8000000 		.4byte	.LASF19
- 305 0193 C8000000 		.4byte	.LASF19
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 7
+ 248 011b 01       		.uleb128 0x1
+ 249 011c 51       		.byte	0x51
+ 250 011d 01       		.uleb128 0x1
+ 251 011e 30       		.byte	0x30
+ 252 011f 00       		.byte	0
+ 253 0120 07       		.uleb128 0x7
+ 254 0121 2A000000 		.4byte	.LVL5
+ 255 0125 A3010000 		.4byte	0x1a3
+ 256 0129 37010000 		.4byte	0x137
+ 257 012d 08       		.uleb128 0x8
+ 258 012e 01       		.uleb128 0x1
+ 259 012f 50       		.byte	0x50
+ 260 0130 05       		.uleb128 0x5
+ 261 0131 03       		.byte	0x3
+ 262 0132 14000000 		.4byte	.LC1
+ 263 0136 00       		.byte	0
+ 264 0137 07       		.uleb128 0x7
+ 265 0138 32000000 		.4byte	.LVL6
+ 266 013c AE010000 		.4byte	0x1ae
+ 267 0140 4C010000 		.4byte	0x14c
+ 268 0144 08       		.uleb128 0x8
+ 269 0145 01       		.uleb128 0x1
+ 270 0146 50       		.byte	0x50
+ 271 0147 03       		.uleb128 0x3
+ 272 0148 0A       		.byte	0xa
+ 273 0149 F401     		.2byte	0x1f4
+ 274 014b 00       		.byte	0
+ 275 014c 07       		.uleb128 0x7
+ 276 014d 38000000 		.4byte	.LVL7
+ 277 0151 8D010000 		.4byte	0x18d
+ 278 0155 5F010000 		.4byte	0x15f
+ 279 0159 08       		.uleb128 0x8
+ 280 015a 01       		.uleb128 0x1
+ 281 015b 50       		.byte	0x50
+ 282 015c 01       		.uleb128 0x1
+ 283 015d 31       		.byte	0x31
+ 284 015e 00       		.byte	0
+ 285 015f 09       		.uleb128 0x9
+ 286 0160 40000000 		.4byte	.LVL8
+ 287 0164 AE010000 		.4byte	0x1ae
+ 288 0168 08       		.uleb128 0x8
+ 289 0169 01       		.uleb128 0x1
+ 290 016a 50       		.byte	0x50
+ 291 016b 03       		.uleb128 0x3
+ 292 016c 0A       		.byte	0xa
+ 293 016d F401     		.2byte	0x1f4
+ 294 016f 00       		.byte	0
+ 295 0170 00       		.byte	0
+ 296 0171 0A       		.uleb128 0xa
+ 297 0172 89010000 		.4byte	.LASF25
+ 298 0176 06       		.byte	0x6
+ 299 0177 1207     		.2byte	0x712
+ 300 0179 7D010000 		.4byte	0x17d
+ 301 017d 0B       		.uleb128 0xb
+ 302 017e 76000000 		.4byte	0x76
+ 303 0182 0C       		.uleb128 0xc
+ 304 0183 7A010000 		.4byte	.LASF16
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 7
 
 
- 306 0197 04       		.byte	0x4
- 307 0198 3C       		.byte	0x3c
- 308 0199 0C       		.uleb128 0xc
- 309 019a FE000000 		.4byte	.LASF20
- 310 019e FE000000 		.4byte	.LASF20
- 311 01a2 05       		.byte	0x5
- 312 01a3 76       		.byte	0x76
- 313 01a4 00       		.byte	0
- 314              		.section	.debug_abbrev,"",%progbits
- 315              	.Ldebug_abbrev0:
- 316 0000 01       		.uleb128 0x1
- 317 0001 11       		.uleb128 0x11
- 318 0002 01       		.byte	0x1
- 319 0003 25       		.uleb128 0x25
- 320 0004 0E       		.uleb128 0xe
- 321 0005 13       		.uleb128 0x13
- 322 0006 0B       		.uleb128 0xb
- 323 0007 03       		.uleb128 0x3
- 324 0008 0E       		.uleb128 0xe
- 325 0009 1B       		.uleb128 0x1b
- 326 000a 0E       		.uleb128 0xe
- 327 000b 55       		.uleb128 0x55
- 328 000c 17       		.uleb128 0x17
- 329 000d 11       		.uleb128 0x11
- 330 000e 01       		.uleb128 0x1
- 331 000f 10       		.uleb128 0x10
- 332 0010 17       		.uleb128 0x17
- 333 0011 00       		.byte	0
- 334 0012 00       		.byte	0
- 335 0013 02       		.uleb128 0x2
- 336 0014 24       		.uleb128 0x24
- 337 0015 00       		.byte	0
- 338 0016 0B       		.uleb128 0xb
- 339 0017 0B       		.uleb128 0xb
- 340 0018 3E       		.uleb128 0x3e
- 341 0019 0B       		.uleb128 0xb
- 342 001a 03       		.uleb128 0x3
- 343 001b 0E       		.uleb128 0xe
- 344 001c 00       		.byte	0
- 345 001d 00       		.byte	0
- 346 001e 03       		.uleb128 0x3
- 347 001f 16       		.uleb128 0x16
- 348 0020 00       		.byte	0
- 349 0021 03       		.uleb128 0x3
- 350 0022 0E       		.uleb128 0xe
- 351 0023 3A       		.uleb128 0x3a
- 352 0024 0B       		.uleb128 0xb
- 353 0025 3B       		.uleb128 0x3b
- 354 0026 0B       		.uleb128 0xb
- 355 0027 49       		.uleb128 0x49
- 356 0028 13       		.uleb128 0x13
- 357 0029 00       		.byte	0
- 358 002a 00       		.byte	0
- 359 002b 04       		.uleb128 0x4
- 360 002c 24       		.uleb128 0x24
- 361 002d 00       		.byte	0
- 362 002e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 8
+ 305 0187 7A010000 		.4byte	.LASF16
+ 306 018b 04       		.byte	0x4
+ 307 018c 38       		.byte	0x38
+ 308 018d 0C       		.uleb128 0xc
+ 309 018e 2F010000 		.4byte	.LASF17
+ 310 0192 2F010000 		.4byte	.LASF17
+ 311 0196 04       		.byte	0x4
+ 312 0197 3A       		.byte	0x3a
+ 313 0198 0C       		.uleb128 0xc
+ 314 0199 61010000 		.4byte	.LASF18
+ 315 019d 61010000 		.4byte	.LASF18
+ 316 01a1 04       		.byte	0x4
+ 317 01a2 3D       		.byte	0x3d
+ 318 01a3 0C       		.uleb128 0xc
+ 319 01a4 C8000000 		.4byte	.LASF19
+ 320 01a8 C8000000 		.4byte	.LASF19
+ 321 01ac 04       		.byte	0x4
+ 322 01ad 3C       		.byte	0x3c
+ 323 01ae 0C       		.uleb128 0xc
+ 324 01af FE000000 		.4byte	.LASF20
+ 325 01b3 FE000000 		.4byte	.LASF20
+ 326 01b7 05       		.byte	0x5
+ 327 01b8 76       		.byte	0x76
+ 328 01b9 00       		.byte	0
+ 329              		.section	.debug_abbrev,"",%progbits
+ 330              	.Ldebug_abbrev0:
+ 331 0000 01       		.uleb128 0x1
+ 332 0001 11       		.uleb128 0x11
+ 333 0002 01       		.byte	0x1
+ 334 0003 25       		.uleb128 0x25
+ 335 0004 0E       		.uleb128 0xe
+ 336 0005 13       		.uleb128 0x13
+ 337 0006 0B       		.uleb128 0xb
+ 338 0007 03       		.uleb128 0x3
+ 339 0008 0E       		.uleb128 0xe
+ 340 0009 1B       		.uleb128 0x1b
+ 341 000a 0E       		.uleb128 0xe
+ 342 000b 55       		.uleb128 0x55
+ 343 000c 17       		.uleb128 0x17
+ 344 000d 11       		.uleb128 0x11
+ 345 000e 01       		.uleb128 0x1
+ 346 000f 10       		.uleb128 0x10
+ 347 0010 17       		.uleb128 0x17
+ 348 0011 00       		.byte	0
+ 349 0012 00       		.byte	0
+ 350 0013 02       		.uleb128 0x2
+ 351 0014 24       		.uleb128 0x24
+ 352 0015 00       		.byte	0
+ 353 0016 0B       		.uleb128 0xb
+ 354 0017 0B       		.uleb128 0xb
+ 355 0018 3E       		.uleb128 0x3e
+ 356 0019 0B       		.uleb128 0xb
+ 357 001a 03       		.uleb128 0x3
+ 358 001b 0E       		.uleb128 0xe
+ 359 001c 00       		.byte	0
+ 360 001d 00       		.byte	0
+ 361 001e 03       		.uleb128 0x3
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 8
 
 
- 363 002f 0B       		.uleb128 0xb
- 364 0030 3E       		.uleb128 0x3e
- 365 0031 0B       		.uleb128 0xb
- 366 0032 03       		.uleb128 0x3
- 367 0033 08       		.uleb128 0x8
- 368 0034 00       		.byte	0
- 369 0035 00       		.byte	0
- 370 0036 05       		.uleb128 0x5
- 371 0037 2E       		.uleb128 0x2e
- 372 0038 01       		.byte	0x1
- 373 0039 3F       		.uleb128 0x3f
- 374 003a 19       		.uleb128 0x19
- 375 003b 03       		.uleb128 0x3
- 376 003c 0E       		.uleb128 0xe
- 377 003d 3A       		.uleb128 0x3a
- 378 003e 0B       		.uleb128 0xb
- 379 003f 3B       		.uleb128 0x3b
- 380 0040 0B       		.uleb128 0xb
- 381 0041 27       		.uleb128 0x27
- 382 0042 19       		.uleb128 0x19
- 383 0043 49       		.uleb128 0x49
- 384 0044 13       		.uleb128 0x13
- 385 0045 8701     		.uleb128 0x87
- 386 0047 19       		.uleb128 0x19
- 387 0048 11       		.uleb128 0x11
- 388 0049 01       		.uleb128 0x1
- 389 004a 12       		.uleb128 0x12
- 390 004b 06       		.uleb128 0x6
- 391 004c 40       		.uleb128 0x40
- 392 004d 18       		.uleb128 0x18
- 393 004e 9742     		.uleb128 0x2117
- 394 0050 19       		.uleb128 0x19
- 395 0051 01       		.uleb128 0x1
- 396 0052 13       		.uleb128 0x13
- 397 0053 00       		.byte	0
- 398 0054 00       		.byte	0
- 399 0055 06       		.uleb128 0x6
- 400 0056 898201   		.uleb128 0x4109
- 401 0059 00       		.byte	0
- 402 005a 11       		.uleb128 0x11
- 403 005b 01       		.uleb128 0x1
- 404 005c 31       		.uleb128 0x31
- 405 005d 13       		.uleb128 0x13
- 406 005e 00       		.byte	0
- 407 005f 00       		.byte	0
- 408 0060 07       		.uleb128 0x7
- 409 0061 898201   		.uleb128 0x4109
- 410 0064 01       		.byte	0x1
- 411 0065 11       		.uleb128 0x11
- 412 0066 01       		.uleb128 0x1
- 413 0067 31       		.uleb128 0x31
- 414 0068 13       		.uleb128 0x13
- 415 0069 01       		.uleb128 0x1
- 416 006a 13       		.uleb128 0x13
- 417 006b 00       		.byte	0
- 418 006c 00       		.byte	0
- 419 006d 08       		.uleb128 0x8
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 9
+ 362 001f 16       		.uleb128 0x16
+ 363 0020 00       		.byte	0
+ 364 0021 03       		.uleb128 0x3
+ 365 0022 0E       		.uleb128 0xe
+ 366 0023 3A       		.uleb128 0x3a
+ 367 0024 0B       		.uleb128 0xb
+ 368 0025 3B       		.uleb128 0x3b
+ 369 0026 0B       		.uleb128 0xb
+ 370 0027 49       		.uleb128 0x49
+ 371 0028 13       		.uleb128 0x13
+ 372 0029 00       		.byte	0
+ 373 002a 00       		.byte	0
+ 374 002b 04       		.uleb128 0x4
+ 375 002c 24       		.uleb128 0x24
+ 376 002d 00       		.byte	0
+ 377 002e 0B       		.uleb128 0xb
+ 378 002f 0B       		.uleb128 0xb
+ 379 0030 3E       		.uleb128 0x3e
+ 380 0031 0B       		.uleb128 0xb
+ 381 0032 03       		.uleb128 0x3
+ 382 0033 08       		.uleb128 0x8
+ 383 0034 00       		.byte	0
+ 384 0035 00       		.byte	0
+ 385 0036 05       		.uleb128 0x5
+ 386 0037 2E       		.uleb128 0x2e
+ 387 0038 01       		.byte	0x1
+ 388 0039 3F       		.uleb128 0x3f
+ 389 003a 19       		.uleb128 0x19
+ 390 003b 03       		.uleb128 0x3
+ 391 003c 0E       		.uleb128 0xe
+ 392 003d 3A       		.uleb128 0x3a
+ 393 003e 0B       		.uleb128 0xb
+ 394 003f 3B       		.uleb128 0x3b
+ 395 0040 0B       		.uleb128 0xb
+ 396 0041 27       		.uleb128 0x27
+ 397 0042 19       		.uleb128 0x19
+ 398 0043 49       		.uleb128 0x49
+ 399 0044 13       		.uleb128 0x13
+ 400 0045 8701     		.uleb128 0x87
+ 401 0047 19       		.uleb128 0x19
+ 402 0048 11       		.uleb128 0x11
+ 403 0049 01       		.uleb128 0x1
+ 404 004a 12       		.uleb128 0x12
+ 405 004b 06       		.uleb128 0x6
+ 406 004c 40       		.uleb128 0x40
+ 407 004d 18       		.uleb128 0x18
+ 408 004e 9742     		.uleb128 0x2117
+ 409 0050 19       		.uleb128 0x19
+ 410 0051 01       		.uleb128 0x1
+ 411 0052 13       		.uleb128 0x13
+ 412 0053 00       		.byte	0
+ 413 0054 00       		.byte	0
+ 414 0055 06       		.uleb128 0x6
+ 415 0056 898201   		.uleb128 0x4109
+ 416 0059 00       		.byte	0
+ 417 005a 11       		.uleb128 0x11
+ 418 005b 01       		.uleb128 0x1
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 9
 
 
- 420 006e 8A8201   		.uleb128 0x410a
- 421 0071 00       		.byte	0
- 422 0072 02       		.uleb128 0x2
- 423 0073 18       		.uleb128 0x18
- 424 0074 9142     		.uleb128 0x2111
- 425 0076 18       		.uleb128 0x18
- 426 0077 00       		.byte	0
- 427 0078 00       		.byte	0
- 428 0079 09       		.uleb128 0x9
- 429 007a 898201   		.uleb128 0x4109
- 430 007d 01       		.byte	0x1
- 431 007e 11       		.uleb128 0x11
- 432 007f 01       		.uleb128 0x1
- 433 0080 31       		.uleb128 0x31
- 434 0081 13       		.uleb128 0x13
- 435 0082 00       		.byte	0
- 436 0083 00       		.byte	0
- 437 0084 0A       		.uleb128 0xa
- 438 0085 34       		.uleb128 0x34
- 439 0086 00       		.byte	0
- 440 0087 03       		.uleb128 0x3
- 441 0088 0E       		.uleb128 0xe
- 442 0089 3A       		.uleb128 0x3a
- 443 008a 0B       		.uleb128 0xb
- 444 008b 3B       		.uleb128 0x3b
- 445 008c 05       		.uleb128 0x5
- 446 008d 49       		.uleb128 0x49
- 447 008e 13       		.uleb128 0x13
- 448 008f 3F       		.uleb128 0x3f
- 449 0090 19       		.uleb128 0x19
- 450 0091 3C       		.uleb128 0x3c
- 451 0092 19       		.uleb128 0x19
- 452 0093 00       		.byte	0
- 453 0094 00       		.byte	0
- 454 0095 0B       		.uleb128 0xb
- 455 0096 35       		.uleb128 0x35
- 456 0097 00       		.byte	0
- 457 0098 49       		.uleb128 0x49
- 458 0099 13       		.uleb128 0x13
- 459 009a 00       		.byte	0
- 460 009b 00       		.byte	0
- 461 009c 0C       		.uleb128 0xc
- 462 009d 2E       		.uleb128 0x2e
- 463 009e 00       		.byte	0
- 464 009f 3F       		.uleb128 0x3f
- 465 00a0 19       		.uleb128 0x19
- 466 00a1 3C       		.uleb128 0x3c
- 467 00a2 19       		.uleb128 0x19
- 468 00a3 6E       		.uleb128 0x6e
- 469 00a4 0E       		.uleb128 0xe
- 470 00a5 03       		.uleb128 0x3
- 471 00a6 0E       		.uleb128 0xe
- 472 00a7 3A       		.uleb128 0x3a
- 473 00a8 0B       		.uleb128 0xb
- 474 00a9 3B       		.uleb128 0x3b
- 475 00aa 0B       		.uleb128 0xb
- 476 00ab 00       		.byte	0
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 10
+ 419 005c 31       		.uleb128 0x31
+ 420 005d 13       		.uleb128 0x13
+ 421 005e 00       		.byte	0
+ 422 005f 00       		.byte	0
+ 423 0060 07       		.uleb128 0x7
+ 424 0061 898201   		.uleb128 0x4109
+ 425 0064 01       		.byte	0x1
+ 426 0065 11       		.uleb128 0x11
+ 427 0066 01       		.uleb128 0x1
+ 428 0067 31       		.uleb128 0x31
+ 429 0068 13       		.uleb128 0x13
+ 430 0069 01       		.uleb128 0x1
+ 431 006a 13       		.uleb128 0x13
+ 432 006b 00       		.byte	0
+ 433 006c 00       		.byte	0
+ 434 006d 08       		.uleb128 0x8
+ 435 006e 8A8201   		.uleb128 0x410a
+ 436 0071 00       		.byte	0
+ 437 0072 02       		.uleb128 0x2
+ 438 0073 18       		.uleb128 0x18
+ 439 0074 9142     		.uleb128 0x2111
+ 440 0076 18       		.uleb128 0x18
+ 441 0077 00       		.byte	0
+ 442 0078 00       		.byte	0
+ 443 0079 09       		.uleb128 0x9
+ 444 007a 898201   		.uleb128 0x4109
+ 445 007d 01       		.byte	0x1
+ 446 007e 11       		.uleb128 0x11
+ 447 007f 01       		.uleb128 0x1
+ 448 0080 31       		.uleb128 0x31
+ 449 0081 13       		.uleb128 0x13
+ 450 0082 00       		.byte	0
+ 451 0083 00       		.byte	0
+ 452 0084 0A       		.uleb128 0xa
+ 453 0085 34       		.uleb128 0x34
+ 454 0086 00       		.byte	0
+ 455 0087 03       		.uleb128 0x3
+ 456 0088 0E       		.uleb128 0xe
+ 457 0089 3A       		.uleb128 0x3a
+ 458 008a 0B       		.uleb128 0xb
+ 459 008b 3B       		.uleb128 0x3b
+ 460 008c 05       		.uleb128 0x5
+ 461 008d 49       		.uleb128 0x49
+ 462 008e 13       		.uleb128 0x13
+ 463 008f 3F       		.uleb128 0x3f
+ 464 0090 19       		.uleb128 0x19
+ 465 0091 3C       		.uleb128 0x3c
+ 466 0092 19       		.uleb128 0x19
+ 467 0093 00       		.byte	0
+ 468 0094 00       		.byte	0
+ 469 0095 0B       		.uleb128 0xb
+ 470 0096 35       		.uleb128 0x35
+ 471 0097 00       		.byte	0
+ 472 0098 49       		.uleb128 0x49
+ 473 0099 13       		.uleb128 0x13
+ 474 009a 00       		.byte	0
+ 475 009b 00       		.byte	0
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 10
 
 
- 477 00ac 00       		.byte	0
- 478 00ad 00       		.byte	0
- 479              		.section	.debug_aranges,"",%progbits
- 480 0000 1C000000 		.4byte	0x1c
- 481 0004 0200     		.2byte	0x2
- 482 0006 00000000 		.4byte	.Ldebug_info0
- 483 000a 04       		.byte	0x4
- 484 000b 00       		.byte	0
- 485 000c 0000     		.2byte	0
- 486 000e 0000     		.2byte	0
- 487 0010 00000000 		.4byte	.LFB63
- 488 0014 44000000 		.4byte	.LFE63-.LFB63
- 489 0018 00000000 		.4byte	0
- 490 001c 00000000 		.4byte	0
- 491              		.section	.debug_ranges,"",%progbits
- 492              	.Ldebug_ranges0:
- 493 0000 00000000 		.4byte	.LFB63
- 494 0004 44000000 		.4byte	.LFE63
- 495 0008 00000000 		.4byte	0
- 496 000c 00000000 		.4byte	0
- 497              		.section	.debug_line,"",%progbits
- 498              	.Ldebug_line0:
- 499 0000 8E010000 		.section	.debug_str,"MS",%progbits,1
- 499      02005801 
- 499      00000201 
- 499      FB0E0D00 
- 499      01010101 
- 500              	.LASF6:
- 501 0000 6C6F6E67 		.ascii	"long long int\000"
- 501      206C6F6E 
- 501      6720696E 
- 501      7400
- 502              	.LASF3:
- 503 000e 73686F72 		.ascii	"short unsigned int\000"
- 503      7420756E 
- 503      7369676E 
- 503      65642069 
- 503      6E7400
- 504              	.LASF8:
- 505 0021 756E7369 		.ascii	"unsigned int\000"
- 505      676E6564 
- 505      20696E74 
- 505      00
- 506              	.LASF22:
- 507 002e 6D61696E 		.ascii	"main.c\000"
- 507      2E6300
- 508              	.LASF21:
- 509 0035 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 509      43313120 
- 509      352E342E 
- 509      31203230 
- 509      31363036 
- 510 0068 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 510      20726576 
- 510      6973696F 
- 510      6E203233 
- 510      37373135 
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 11
+ 476 009c 0C       		.uleb128 0xc
+ 477 009d 2E       		.uleb128 0x2e
+ 478 009e 00       		.byte	0
+ 479 009f 3F       		.uleb128 0x3f
+ 480 00a0 19       		.uleb128 0x19
+ 481 00a1 3C       		.uleb128 0x3c
+ 482 00a2 19       		.uleb128 0x19
+ 483 00a3 6E       		.uleb128 0x6e
+ 484 00a4 0E       		.uleb128 0xe
+ 485 00a5 03       		.uleb128 0x3
+ 486 00a6 0E       		.uleb128 0xe
+ 487 00a7 3A       		.uleb128 0x3a
+ 488 00a8 0B       		.uleb128 0xb
+ 489 00a9 3B       		.uleb128 0x3b
+ 490 00aa 0B       		.uleb128 0xb
+ 491 00ab 00       		.byte	0
+ 492 00ac 00       		.byte	0
+ 493 00ad 00       		.byte	0
+ 494              		.section	.debug_aranges,"",%progbits
+ 495 0000 1C000000 		.4byte	0x1c
+ 496 0004 0200     		.2byte	0x2
+ 497 0006 00000000 		.4byte	.Ldebug_info0
+ 498 000a 04       		.byte	0x4
+ 499 000b 00       		.byte	0
+ 500 000c 0000     		.2byte	0
+ 501 000e 0000     		.2byte	0
+ 502 0010 00000000 		.4byte	.LFB63
+ 503 0014 4C000000 		.4byte	.LFE63-.LFB63
+ 504 0018 00000000 		.4byte	0
+ 505 001c 00000000 		.4byte	0
+ 506              		.section	.debug_ranges,"",%progbits
+ 507              	.Ldebug_ranges0:
+ 508 0000 00000000 		.4byte	.LFB63
+ 509 0004 4C000000 		.4byte	.LFE63
+ 510 0008 00000000 		.4byte	0
+ 511 000c 00000000 		.4byte	0
+ 512              		.section	.debug_line,"",%progbits
+ 513              	.Ldebug_line0:
+ 514 0000 93010000 		.section	.debug_str,"MS",%progbits,1
+ 514      02005801 
+ 514      00000201 
+ 514      FB0E0D00 
+ 514      01010101 
+ 515              	.LASF6:
+ 516 0000 6C6F6E67 		.ascii	"long long int\000"
+ 516      206C6F6E 
+ 516      6720696E 
+ 516      7400
+ 517              	.LASF3:
+ 518 000e 73686F72 		.ascii	"short unsigned int\000"
+ 518      7420756E 
+ 518      7369676E 
+ 518      65642069 
+ 518      6E7400
+ 519              	.LASF8:
+ 520 0021 756E7369 		.ascii	"unsigned int\000"
+ 520      676E6564 
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 11
 
 
- 511 009b 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 511      66756E63 
- 511      74696F6E 
- 511      2D736563 
- 511      74696F6E 
- 512              	.LASF24:
- 513 00c3 6D61696E 		.ascii	"main\000"
- 513      00
- 514              	.LASF19:
- 515 00c8 4C43445F 		.ascii	"LCD_Char_PrintString\000"
- 515      43686172 
- 515      5F507269 
- 515      6E745374 
- 515      72696E67 
- 516              	.LASF23:
- 517 00dd 433A5C50 		.ascii	"C:\\PSoC5LP\\PSoC5LP\\ReStart.cydsn\000"
- 517      536F4335 
- 517      4C505C50 
- 517      536F4335 
- 517      4C505C52 
- 518              	.LASF20:
- 519 00fe 43794465 		.ascii	"CyDelay\000"
- 519      6C617900 
- 520              	.LASF5:
- 521 0106 6C6F6E67 		.ascii	"long unsigned int\000"
- 521      20756E73 
- 521      69676E65 
- 521      6420696E 
- 521      7400
- 522              	.LASF7:
- 523 0118 6C6F6E67 		.ascii	"long long unsigned int\000"
- 523      206C6F6E 
- 523      6720756E 
- 523      7369676E 
- 523      65642069 
- 524              	.LASF17:
- 525 012f 4C43445F 		.ascii	"LCD_Char_WriteControl\000"
- 525      43686172 
- 525      5F577269 
- 525      7465436F 
- 525      6E74726F 
- 526              	.LASF1:
- 527 0145 756E7369 		.ascii	"unsigned char\000"
- 527      676E6564 
- 527      20636861 
- 527      7200
- 528              	.LASF13:
- 529 0153 63686172 		.ascii	"char\000"
- 529      00
- 530              	.LASF4:
- 531 0158 6C6F6E67 		.ascii	"long int\000"
- 531      20696E74 
- 531      00
- 532              	.LASF18:
- 533 0161 4C43445F 		.ascii	"LCD_Char_Position\000"
- 533      43686172 
- 533      5F506F73 
-ARM GAS  C:\Users\quiqu\AppData\Local\Temp\cczPq01a.s 			page 12
+ 520      20696E74 
+ 520      00
+ 521              	.LASF22:
+ 522 002e 6D61696E 		.ascii	"main.c\000"
+ 522      2E6300
+ 523              	.LASF21:
+ 524 0035 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 524      43313120 
+ 524      352E342E 
+ 524      31203230 
+ 524      31363036 
+ 525 0068 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 525      20726576 
+ 525      6973696F 
+ 525      6E203233 
+ 525      37373135 
+ 526 009b 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 526      66756E63 
+ 526      74696F6E 
+ 526      2D736563 
+ 526      74696F6E 
+ 527              	.LASF24:
+ 528 00c3 6D61696E 		.ascii	"main\000"
+ 528      00
+ 529              	.LASF19:
+ 530 00c8 4C43445F 		.ascii	"LCD_Char_PrintString\000"
+ 530      43686172 
+ 530      5F507269 
+ 530      6E745374 
+ 530      72696E67 
+ 531              	.LASF23:
+ 532 00dd 433A5C50 		.ascii	"C:\\PSoC5LP\\PSoC5LP\\ReStart.cydsn\000"
+ 532      536F4335 
+ 532      4C505C50 
+ 532      536F4335 
+ 532      4C505C52 
+ 533              	.LASF20:
+ 534 00fe 43794465 		.ascii	"CyDelay\000"
+ 534      6C617900 
+ 535              	.LASF5:
+ 536 0106 6C6F6E67 		.ascii	"long unsigned int\000"
+ 536      20756E73 
+ 536      69676E65 
+ 536      6420696E 
+ 536      7400
+ 537              	.LASF7:
+ 538 0118 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 538      206C6F6E 
+ 538      6720756E 
+ 538      7369676E 
+ 538      65642069 
+ 539              	.LASF17:
+ 540 012f 4C43445F 		.ascii	"LCD_Char_WriteControl\000"
+ 540      43686172 
+ 540      5F577269 
+ 540      7465436F 
+ 540      6E74726F 
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 12
 
 
- 533      6974696F 
- 533      6E00
- 534              	.LASF12:
- 535 0173 646F7562 		.ascii	"double\000"
- 535      6C6500
- 536              	.LASF16:
- 537 017a 4C43445F 		.ascii	"LCD_Char_Start\000"
- 537      43686172 
- 537      5F537461 
- 537      727400
- 538              	.LASF25:
- 539 0189 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 539      52784275 
- 539      66666572 
- 539      00
- 540              	.LASF0:
- 541 0196 7369676E 		.ascii	"signed char\000"
- 541      65642063 
- 541      68617200 
- 542              	.LASF15:
- 543 01a2 6C6F6E67 		.ascii	"long double\000"
- 543      20646F75 
- 543      626C6500 
- 544              	.LASF9:
- 545 01ae 5F5F696E 		.ascii	"__int32_t\000"
- 545      7433325F 
- 545      7400
- 546              	.LASF11:
- 547 01b8 666C6F61 		.ascii	"float\000"
- 547      7400
- 548              	.LASF2:
- 549 01be 73686F72 		.ascii	"short int\000"
- 549      7420696E 
- 549      7400
- 550              	.LASF10:
- 551 01c8 696E7433 		.ascii	"int32_t\000"
- 551      325F7400 
- 552              	.LASF14:
- 553 01d0 73697A65 		.ascii	"sizetype\000"
- 553      74797065 
- 553      00
- 554              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 541              	.LASF1:
+ 542 0145 756E7369 		.ascii	"unsigned char\000"
+ 542      676E6564 
+ 542      20636861 
+ 542      7200
+ 543              	.LASF13:
+ 544 0153 63686172 		.ascii	"char\000"
+ 544      00
+ 545              	.LASF4:
+ 546 0158 6C6F6E67 		.ascii	"long int\000"
+ 546      20696E74 
+ 546      00
+ 547              	.LASF18:
+ 548 0161 4C43445F 		.ascii	"LCD_Char_Position\000"
+ 548      43686172 
+ 548      5F506F73 
+ 548      6974696F 
+ 548      6E00
+ 549              	.LASF12:
+ 550 0173 646F7562 		.ascii	"double\000"
+ 550      6C6500
+ 551              	.LASF16:
+ 552 017a 4C43445F 		.ascii	"LCD_Char_Start\000"
+ 552      43686172 
+ 552      5F537461 
+ 552      727400
+ 553              	.LASF25:
+ 554 0189 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 554      52784275 
+ 554      66666572 
+ 554      00
+ 555              	.LASF0:
+ 556 0196 7369676E 		.ascii	"signed char\000"
+ 556      65642063 
+ 556      68617200 
+ 557              	.LASF15:
+ 558 01a2 6C6F6E67 		.ascii	"long double\000"
+ 558      20646F75 
+ 558      626C6500 
+ 559              	.LASF9:
+ 560 01ae 5F5F696E 		.ascii	"__int32_t\000"
+ 560      7433325F 
+ 560      7400
+ 561              	.LASF11:
+ 562 01b8 666C6F61 		.ascii	"float\000"
+ 562      7400
+ 563              	.LASF2:
+ 564 01be 73686F72 		.ascii	"short int\000"
+ 564      7420696E 
+ 564      7400
+ 565              	.LASF10:
+ 566 01c8 696E7433 		.ascii	"int32_t\000"
+ 566      325F7400 
+ 567              	.LASF14:
+ 568 01d0 73697A65 		.ascii	"sizetype\000"
+ 568      74797065 
+ 568      00
+ARM GAS  C:\Users\quiqu\AppData\Local\Temp\ccFFJkC2.s 			page 13
+
+
+ 569              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
